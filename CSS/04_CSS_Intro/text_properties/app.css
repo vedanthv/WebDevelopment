@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    /* Text align aligns the content in the element and not the element */
+    font-weight: 400;
+    /*400 is normal and 700 is bold. We can use normal, bold etc...*/
+    text-decoration: #f78120 underline wavy;
+    letter-spacing: 15px;
+    /*pixel is absolute not relative. Does not change with the page*/
+    font-size: 80px;
+    /* font-family: Segoe UI, Futura, Arial, sans-serif; */
+    font-family: Segoe UI, Futura, Arial, sans-serif;
+    /*Collection of font stacks : https://www.cssfontstack.com/*/
+}
+
+a {
+    text-decoration: none;
+    /*removes the underline*/
+}
+
+p {
+    line-height: 2;
+    /*makes the paragraphs double spaced*/
+}
+
+.hipster {
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-decoration: plum underline wavy;
+    text-align: center;
+}

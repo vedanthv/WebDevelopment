@@ -1,0 +1,19 @@
+h2 {
+    color: #5FCFFC;
+    /*the first two represent red, next two is green and the last two are blue*/
+    background-color: rgb(89, 151, 0);
+}
+
+button {
+    color: magenta;
+    background-color: cyan;
+}
+
+p {
+    color: olive;
+    background: rgb(228, 161, 37);
+}
+
+body {
+    background-color: #c5e;
+}
