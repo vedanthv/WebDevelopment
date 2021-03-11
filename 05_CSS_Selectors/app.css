@@ -1,0 +1,106 @@
+    /* * {
+    background-color: cyan;
+} */
+    /*
+* is used as a universal selector
+*/
+    
+    body {
+        background-color: #f1faee;
+    }
+    
+    button {
+        font-size: 30px;
+        background-color: #a8dadc;
+    }
+    
+    h1,
+    h2 {
+        color: #1d3557;
+    }
+    
+    #signup {
+        /*ids can be used only for one element*/
+        background-color: #1d3557;
+        color: #f1faee;
+    }
+    
+    span {
+        color: #457b9d;
+    }
+    
+    .tag {
+        background-color: #e63946;
+        color: #f1faee;
+        font-size: 16px;
+    }
+    
+    .post a {
+        color: #457b9d;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    
+    footer a {
+        /*this is a descendant selector. All the links in the footer become red*/
+        color: #e63946;
+    }
+    
+    h2+button {
+        /*ADJACENT SELECTOR:the button that comes immediately after the h2 becomes a font size of 20px*/
+        font-size: 20px;
+    }
+    
+    footer>a {
+        /*Direct Descendant Selector : It implements the properties to only the direct descendant or the first child element of a parent element
+        Here we can cee that only the a tag is a direct descendant or the first child of the footer tag but the li's are the descendants of the ul's*/
+        color: #457b9d;
+    }
+    
+    input[type="password"] {
+        /*Attribute selector : here we are styling only the password input*/
+        color: greenyellow;
+    }
+    
+    a[href*="google"] {
+        /*we are specifying that style only the links that start with google*/
+        color: #1d3557;
+    }
+    
+    .post a:hover {
+        /*all links in the class post when hovered will be underlined*/
+        text-decoration: underline;
+    }
+    
+    .post button:active {
+        background-color: #02c39a;
+    }
+    
+    .post:nth-of-type(2n) {
+        background-color: #dfe8dc;
+    }
+    
+    h2::first-letter {
+        font-size: 50px;
+    }
+    
+    p::first-line {
+        color: purple;
+    }
+    
+    p::selection {
+        background-color: #fcbf49;
+    }
+    
+    .post button:hover {
+        background-color: #e63946;
+        color: #f1faee;
+    }
+    
+    button:hover {
+        background-color: olive;
+    }
+    
+    button {
+        background-color: magenta !important;
+    }
